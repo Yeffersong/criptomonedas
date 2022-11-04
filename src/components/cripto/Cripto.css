@@ -1,0 +1,35 @@
+.cripto {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all .25s;
+  }
+  
+  .cripto:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 12px 12px #00000059;
+  }
+  
+  .cripto .info {
+    color: #D2D2D5
+  }
+  
+  .cripto h2, .cripto a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #moreDetails{
+    font-size: .8rem;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+  }
+  #moreDetails:hover{
+    color: black;
+    background-color: white;
+  }
